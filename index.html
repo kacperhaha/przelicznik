@@ -10,12 +10,12 @@
 
 <button id="darkmodebutton" onclick="darkmode()">Dark Mode</button>
 <div id="maintext"> Przelicznik Punktów</div>
-  <form id="my-form">
+  <form id="my-form" onsubmit="return false;">
      <label for="max">Podaj Liczbe maksymalnie otrzymanych punktów</label>
-     <input type="number" id="max" name="max" min="1" max="999" id="myInput">
+     <input type="number" id="max" name="max" min="1" max="9999" id="myInput">
      <label for="quantity">Podaj liczbe zdobytych punktów</label>
-     <input type="number" id="quantity" name="quantity" min="1" max="999" id="myInput">
-     <input type="button" value="Oblicz" id="submit" name="submit" onclick="calculate()">
+     <input type="number" id="quantity" name="quantity" min="1" max="9999" id="myInput">
+     <input type="sumbit" value="Oblicz" id="submit" name="submit" onclick="calculate()">
   </form>     
   
 <div id='wynik'>wynik</div>
