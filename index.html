@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf8">
+<link rel="stylesheet" href="style.css">
+<script src="scripts.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="darkmodeos();">
+
+<button id="darkmodebutton" onclick="darkmode()">Dark Mode</button>
+<div id="maintext"> Przelicznik Punktów</div>
+  <form id="my-form">
+     <label for="max">Podaj Liczbe maksymalnie otrzymanych punktów</label>
+     <input type="number" id="max" name="max" min="1" max="999" id="myInput">
+     <label for="quantity">Podaj liczbe zdobytych punktów</label>
+     <input type="number" id="quantity" name="quantity" min="1" max="999" id="myInput">
+     <input type="button" value="Oblicz" id="submit" name="submit" onclick="calculate()">
+  </form>     
+  
+<div id='wynik'>wynik</div>
+
+</body>
+
+
+
+
+
+
+</html>
